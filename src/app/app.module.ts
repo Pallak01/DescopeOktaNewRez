@@ -10,8 +10,8 @@ import { AuthInterceptor } from './auth.interceptor';
 import { ProfileComponent } from './profile/profile.component';
 
 const oktaAuth = new OktaAuth({
-  issuer: 'https://{yourOktaDomain}/oauth2/default',
-  clientId: '{yourClientID}',
+  issuer: 'https://dev-41094575.okta.com/oauth2/default',
+  clientId: '0oahjepuz7QzvWyto5d7',
   redirectUri: window.location.origin + '/login/callback',
 });
 
